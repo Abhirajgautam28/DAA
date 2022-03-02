@@ -1,0 +1,23 @@
+PSEUDO CODE
+1. ENTER SIZE OF ALREADY SORTED ARRAY(N).
+2. ENTER ARRAY ELEMENT.
+3. ENTER NUMBER TO BE SEARCHED IN VARIABLE "KEY".
+4. BINARY SEARCH (L=0;R=N-1;MID)
+INT FLAG=0;
+WHILE(L<=R)
+{
+INT MID=L+(r-l)/2;
+if(A[mid]==key)
+{
+flag=1;
+return mid;
+}
+if (key>a[mid])
+L=mid+1;
+else;
+      x=mid-1;
+      if(flag==0)
+      print("Element not found")
+else;
+print("Element Found")
+}
